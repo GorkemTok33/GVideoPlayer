@@ -1,1 +1,1 @@
-# GVideoPlayer (Görkem Video Player)
+# GVideoPlayer 
