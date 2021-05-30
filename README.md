@@ -1,5 +1,7 @@
 # GVideoPlayer 
 
+<img src = ![1](https://user-images.githubusercontent.com/79594881/120121440-25f0b600-c1ac-11eb-8d3f-db24497b1ce8.png)> </img>
+
 Yazar: Görkem Tok <br>
 Program Adı:GVideoPlayer <br>
 Programlama dili/Çapraz Platform Yazılımı: cpp/Qt Creator <br>
