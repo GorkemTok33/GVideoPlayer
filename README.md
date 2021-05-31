@@ -19,7 +19,7 @@ Lisans Hakları: <b>Copyright 2021 Görkem Tok</b>
 6- Video sesini susturma/açma, 0-99 aralığında ses artırabilme ve azaltabilme.
 7- Programın Şeffaflığını ayarlayabilme. <br>
 8- Playlistleri otomatik oynatabilme, rasgele ya da sırayla oynatabilme.
-<h3>Üzerinde Çalışması Devam Edilen Özellikler</h3>
+<h3>Çalışması Devam Edilen Özellikler</h3>
 1- Videoya altyazı ekleyebilme. <br>
 2- Tam ekran grafiklerinin geliştirilmesi <br>
 <h3>Özellik Detayları ve Görselleri</h3>
