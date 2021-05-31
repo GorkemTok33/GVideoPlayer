@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1038</width>
+    <height>630</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(200, 200, 200);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_3">
+    <item row="0" column="0">
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="1" column="0">
+       <layout class="QGridLayout" name="gridLayout">
+        <item row="0" column="0">
+         <layout class="QVBoxLayout" name="verticalLayout">
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout">
+            <item>
+             <widget class="QSlider" name="horizontalSlider">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="labelDuration">
+              <property name="font">
+               <font>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>00.00</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_2">
+            <item>
+             <widget class="QPushButton" name="pushButton">
+              <property name="minimumSize">
+               <size>
+                <width>53</width>
+                <height>49</height>
+               </size>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="icon">
+               <iconset resource="Data.qrc">
+                <normaloff>:/icons/previous-1.png</normaloff>:/icons/previous-1.png</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>35</width>
+                <height>35</height>
+               </size>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="btnPlay">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>45</width>
+                <height>45</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true"/>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="icon">
+               <iconset resource="Data.qrc">
+                <normaloff>:/icons/play.png</normaloff>:/icons/play.png</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>35</width>
+                <height>35</height>
+               </size>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="btnPause">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>45</width>
+                <height>45</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true"/>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="icon">
+               <iconset resource="Data.qrc">
+                <normaloff>:/icons/pause.png</normaloff>:/icons/pause.png</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>35</width>
+                <height>35</height>
+               </size>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="btnNext">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>45</width>
+                <height>45</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true"/>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="icon">
+               <iconset resource="Data.qrc">
+                <normaloff>:/icons/next.png</normaloff>:/icons/next.png</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>35</width>
+                <height>35</height>
+               </size>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_8">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_2">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_3">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <widget class="QLabel" name="label">
+              <property name="minimumSize">
+               <size>
+                <width>280</width>
+                <height>10</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-image: url(:/icons/gvideoplayer.png);</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_4">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_5">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_6">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_7">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <widget class="QPushButton" name="btnFullscreen">
+              <property name="minimumSize">
+               <size>
+                <width>25</width>
+                <height>25</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true"/>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="icon">
+               <iconset resource="Data.qrc">
+                <normaloff>:/icons/full-screen.png</normaloff>:/icons/full-screen.png</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>12</width>
+                <height>12</height>
+               </size>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="btnMute">
+              <property name="minimumSize">
+               <size>
+                <width>25</width>
+                <height>25</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true"/>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="icon">
+               <iconset resource="Data.qrc">
+                <normaloff>:/icons/volume-1.png</normaloff>:/icons/volume-1.png</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QSlider" name="horizontalSlider_2">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="lblSound">
+              <property name="minimumSize">
+               <size>
+                <width>20</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>50</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+      <item row="0" column="0">
+       <widget class="QFrame" name="frame">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>480</width>
+          <height>350</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-repeat:no-repeat;
+background-color: rgb(33, 32, 23);
+ background-position:center;
+ background-origin:border;
+ background-image:  url(:/icons/gvideoplayer.png);</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1038</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuDosya">
+    <property name="title">
+     <string>Dosya</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="actionA"/>
+   </widget>
+   <widget class="QMenu" name="menuVideo">
+    <property name="title">
+     <string>Video</string>
+    </property>
+    <widget class="QMenu" name="menuPlaylist">
+     <property name="title">
+      <string>Playlist</string>
+     </property>
+     <addaction name="actionPlaylist_G_r_nt_le"/>
+    </widget>
+    <addaction name="separator"/>
+    <addaction name="menuPlaylist"/>
+   </widget>
+   <widget class="QMenu" name="menuProgram">
+    <property name="title">
+     <string>Program</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="actionHakk_nda"/>
+   </widget>
+   <widget class="QMenu" name="menuG_r_n_m">
+    <property name="title">
+     <string>Görünüm</string>
+    </property>
+    <widget class="QMenu" name="menuParlakl_k">
+     <property name="title">
+      <string>Parlaklık</string>
+     </property>
+     <addaction name="action_10"/>
+     <addaction name="action_11"/>
+    </widget>
+    <widget class="QMenu" name="menuKontrast">
+     <property name="title">
+      <string>Kontrast</string>
+     </property>
+     <addaction name="action_12"/>
+     <addaction name="action_13"/>
+    </widget>
+    <widget class="QMenu" name="menuEn_Boy_Oran">
+     <property name="title">
+      <string>En-Boy Oranı</string>
+     </property>
+     <addaction name="actionEn_Boy_Oran_n_nemseme"/>
+     <addaction name="actionEn_Boy_Oran_n_Koru"/>
+     <addaction name="actionEn_Boy_Oran_n_Geni_leterek_Koru"/>
+    </widget>
+    <widget class="QMenu" name="menuUygulama_effafl">
+     <property name="title">
+      <string>Uygulama Şeffaflığı</string>
+     </property>
+     <addaction name="action_0_05_Art_r"/>
+     <addaction name="action_0_05_Azalt"/>
+    </widget>
+    <addaction name="menuParlakl_k"/>
+    <addaction name="menuKontrast"/>
+    <addaction name="menuEn_Boy_Oran"/>
+    <addaction name="menuUygulama_effafl"/>
+   </widget>
+   <addaction name="menuDosya"/>
+   <addaction name="menuVideo"/>
+   <addaction name="menuG_r_n_m"/>
+   <addaction name="menuProgram"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionA"/>
+   <addaction name="actionPlaylist_G_r_nt_le"/>
+   <addaction name="action_10"/>
+   <addaction name="action_11"/>
+   <addaction name="action_12"/>
+   <addaction name="action_13"/>
+   <addaction name="action_0_05_Art_r"/>
+   <addaction name="action_0_05_Azalt"/>
+   <addaction name="actionHakk_nda"/>
+  </widget>
+  <action name="actionDosya">
+   <property name="icon">
+    <iconset resource="Data.qrc">
+     <normaloff>:/icons/folder.png</normaloff>:/icons/folder.png</iconset>
+   </property>
+   <property name="text">
+    <string>Dosya</string>
+   </property>
+  </action>
+  <action name="actionA">
+   <property name="icon">
+    <iconset resource="Data.qrc">
+     <normaloff>:/icons/folder.png</normaloff>:/icons/folder.png</iconset>
+   </property>
+   <property name="text">
+    <string>  Aç</string>
+   </property>
+  </action>
+  <action name="actionPlaylisti_G_r_nt_le">
+   <property name="text">
+    <string>Playlisti Görüntüle</string>
+   </property>
+  </action>
+  <action name="actionHakk_nda">
+   <property name="icon">
+    <iconset resource="Data.qrc">
+     <normaloff>:/icons/info.png</normaloff>:/icons/info.png</iconset>
+   </property>
+   <property name="text">
+    <string>  Hakkında</string>
+   </property>
+  </action>
+  <action name="action_10">
+   <property name="icon">
+    <iconset resource="Data.qrc">
+     <normaloff>:/icons/bup.png</normaloff>:/icons/bup.png</iconset>
+   </property>
+   <property name="text">
+    <string>  +10</string>
+   </property>
+  </action>
+  <action name="action_11">
+   <property name="icon">
+    <iconset resource="Data.qrc">
+     <normaloff>:/icons/bbup.png</normaloff>:/icons/bbup.png</iconset>
+   </property>
+   <property name="text">
+    <string>  -10</string>
+   </property>
+  </action>
+  <action name="action_12">
+   <property name="icon">
+    <iconset resource="Data.qrc">
+     <normaloff>:/icons/cup.png</normaloff>:/icons/cup.png</iconset>
+   </property>
+   <property name="text">
+    <string>  +10</string>
+   </property>
+  </action>
+  <action name="action_13">
+   <property name="icon">
+    <iconset resource="Data.qrc">
+     <normaloff>:/icons/cdown.png</normaloff>:/icons/cdown.png</iconset>
+   </property>
+   <property name="text">
+    <string>  -10</string>
+   </property>
+  </action>
+  <action name="actionEn_Boy_Oran_n_nemseme">
+   <property name="icon">
+    <iconset resource="Data.qrc">
+     <normaloff>:/icons/frame.png</normaloff>:/icons/frame.png</iconset>
+   </property>
+   <property name="text">
+    <string>  En-Boy Oranını Önemseme</string>
+   </property>
+  </action>
+  <action name="actionEn_Boy_Oran_n_Koru">
+   <property name="icon">
+    <iconset resource="Data.qrc">
+     <normaloff>:/icons/frame.png</normaloff>:/icons/frame.png</iconset>
+   </property>
+   <property name="text">
+    <string>  En-Boy Oranını Koru</string>
+   </property>
+  </action>
+  <action name="actionEn_Boy_Oran_n_Geni_leterek_Koru">
+   <property name="icon">
+    <iconset resource="Data.qrc">
+     <normaloff>:/icons/frame.png</normaloff>:/icons/frame.png</iconset>
+   </property>
+   <property name="text">
+    <string>  En-Boy Oranını Genişleterek Koru</string>
+   </property>
+  </action>
+  <action name="actionPlaylist_G_r_nt_le">
+   <property name="icon">
+    <iconset resource="Data.qrc">
+     <normaloff>:/icons/playlist.png</normaloff>:/icons/playlist.png</iconset>
+   </property>
+   <property name="text">
+    <string>  Playlist Görüntüle</string>
+   </property>
+  </action>
+  <action name="action_0_05_Art_r">
+   <property name="icon">
+    <iconset resource="Data.qrc">
+     <normaloff>:/icons/opacitydown.png</normaloff>:/icons/opacitydown.png</iconset>
+   </property>
+   <property name="text">
+    <string>  0.05 Artır</string>
+   </property>
+  </action>
+  <action name="action_0_05_Azalt">
+   <property name="icon">
+    <iconset resource="Data.qrc">
+     <normaloff>:/icons/opacityup.png</normaloff>:/icons/opacityup.png</iconset>
+   </property>
+   <property name="text">
+    <string>  0.05 Azalt</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="Data.qrc"/>
+ </resources>
+ <connections/>
+</ui>
