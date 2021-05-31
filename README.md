@@ -28,6 +28,11 @@ Lisans Hakları: <b>Copyright 2021 Görkem Tok</b>
 GVideoPlayer videolarınızı belirli bir sırada oynatabilmeniz için playlist özelliğine sahiptir. Playlist penceresini açarak hangi videonun oynatıldığını görebilir, playliste sürükle bırak yaparak ya da video ekle butonuna tıklayarak video ekleyebilir, playlistinizden video çıkarabilir ve playlistinizi sıfırlayabilirsiniz. Playlistinizin video sonuna geldiğinde sonraki videoya otomatik geçmesini ayarlayabilir ve videolarınızı rasgele oynatabilirsiniz. Ayrıca oluşturduğunuzu playlistlere başlık ismi vererek kaydedebilirsiniz. Playlist ile ilgili daha detaylı bilgi için lütfen sunum videosunu izleyin.
 <br>
 <br>
+<h3>Sistem Gereksinimleri</h3>
+1-Minimum 720p Çözünürlüğe Sahip Monitör <br>
+2-Windows İşletim Sistemi Yüklü Bilgisayar <br>
+3-Yüklü bir Kodec Pack(Tercihen K-Lite Codec Pack 16.1.2 ++) <br>
+3-50 mb Depolama Alanı <br>
 <br>
 2-<b>Tam Ekran</b>
 <img src = "https://user-images.githubusercontent.com/79594881/120124396-0ada7200-c1bd-11eb-97a8-7694696c3562.png" width = "500px" height = "300px" align = "right"> </img>
