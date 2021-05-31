@@ -36,8 +36,6 @@ GVideoPlayer videolarınızı tam ekran oynatma seçeneği sunar. Farenize çift
 <br>
 <br>
 <br>
-<br>
-<br>
 <h3>Minimum Sistem Gereksinimleri</h3>
 1-Minimum 720p Çözünürlüğe Sahip Monitör <br>
 2-Windows İşletim Sistemi Yüklü Bilgisayar <br>
