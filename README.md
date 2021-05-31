@@ -29,6 +29,7 @@ GVideoPlayer videolarınızı belirli bir sırada oynatabilmeniz için playlist 
 <br>
 <br>
 <br>
+<br>
 2-<b>Tam Ekran</b>
 <img src = "https://user-images.githubusercontent.com/79594881/120124396-0ada7200-c1bd-11eb-97a8-7694696c3562.png" width = "500px" height = "300px" align = "right"> </img>
 GVideoPlayer videolarınızı tam ekran oynatma seçeneği sunar. Farenize çift tıklayarak tam ekran moduna geçebilir ve taam ekrandan çıkabilirsiniz. Tam ekrandayken videoyu kontrol edebilmek için video menüsüne sağ fare tuşuna bıklayarak erişebilirsiniz. Bu menüde videoyu durdurabilir, oynatmaya devam edebilir, sonraki ve önceki videolar arası geçiş yapabilir, video en-boy oranını ayarlayabilirsiniz. Data fazla detay için lütfen sunum videosunu izleyiniz.
@@ -37,7 +38,7 @@ GVideoPlayer videolarınızı tam ekran oynatma seçeneği sunar. Farenize çift
 <br>
 <br>
 <br>
-<h3>Minimum Sistem Gereksinimleri</h>
+<h3>Minimum Sistem Gereksinimleri</h3>
 1-Minimum 720p Çözünürlüğe Sahip Monitör
 2-Windows İşletim Sistemi Yüklü Bilgisayar
 3-Codec Pack(Tercihen K-Lite Codec Pack 16.1.2)
