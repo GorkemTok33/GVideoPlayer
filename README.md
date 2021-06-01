@@ -36,7 +36,7 @@ GVideoPlayer videolarınızı belirli bir sırada oynatabilmeniz için playlist 
 <br>
 2-<b>Tam Ekran</b>
 <img src = "https://user-images.githubusercontent.com/79594881/120301229-4ff1c780-c2d5-11eb-88d9-7002a6e15f89.png" width = "500px" height = "250px" align = "right"> </img>
-GVideoPlayer videolarınızı tam ekran oynatma seçeneği sunar. Farenize çift tıklayarak tam ekran moduna geçebilir ve taam ekrandan çıkabilirsiniz. Tam ekrandayken videoyu kontrol edebilmek için video menüsüne sağ fare tuşuna bıklayarak erişebilirsiniz. Bu menüde videoyu durdurabilir, oynatmaya devam edebilir, sonraki ve önceki videolar arası geçiş yapabilir, video en-boy oranını ayarlayabilirsiniz. Data fazla detay için lütfen sunum videosunu izleyiniz.
+GVideoPlayer videolarınızı tam ekranda oynatma seçeneği sunar. Farenizin sol tuşuna çift tıklayarak tam ekran moduna geçebilir ve aynı tıklama ile tam ekran modundan çıkabilirsiniz. Tam ekrandayken videoyu kontrol edebilmek için video menüsüne sağ fare tuşuna tıklayarak erişebilirsiniz. Bu menü ile videoyu durdurabilir, oynatmaya devam edebilir, sonraki ve önceki videolar arası geçiş yapabilir, video en-boy oranını ayarlayabilirsiniz. Daha fazla detay için lütfen sunum videosunu izleyiniz.
 <br>
 <br>
 <br>
