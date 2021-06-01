@@ -20,8 +20,12 @@ Lisans Hakları: <b>Copyright 2021 Görkem Tok</b>
 7- Programın Şeffaflığını ayarlayabilme. <br>
 8- Playlistleri otomatik oynatabilme, rasgele ya da sırayla oynatabilme.
 <h3>Çalışması Devam Edilen Özellikler</h3>
+<img src = "https://user-images.githubusercontent.com/79594881/120317182-feeacf00-c2e6-11eb-9ce7-319d7c69c591.jpg" width = "100px" height = "100px" align = "left"> </img>
 1- Videoya altyazı ekleyebilme. <br>
 2- Tam ekran grafiklerinin geliştirilmesi <br>
+<br>
+<br>
+<br>
 <h3>Özellik Detayları ve Görselleri</h3>
 1-<b>Playlist</b>
 <img src = "https://user-images.githubusercontent.com/79594881/120124086-20e73300-c1bb-11eb-929c-2e939a158dc0.png" width = "500px" height = "300px" align = "right"> </img>
@@ -37,7 +41,7 @@ GVideoPlayer videolarınızı tam ekran oynatma seçeneği sunar. Farenize çift
 <br>
 <br>
 <h3>Minimum Sistem Gereksinimleri</h3>
-<img src = "https://user-images.githubusercontent.com/79594881/120302906-01452d00-c2d7-11eb-9dd1-bbb7cf9d5d66.png" width = "100px" height = "100px" align = "left"> </img>
+<img src = "https://user-images.githubusercontent.com/79594881/120302906-01452d00-c2d7-11eb-9dd1-bbb7cf9d5d66.png" width = "50px" height = "50px" align = "left"> </img>
 1-Minimum 720p Çözünürlüğe Sahip Monitör <br>
 2-Windows İşletim Sistemi Yüklü Bilgisayar <br>
 3-Codec Pack(Tercihen K-Lite Codec Pack 16.1.2) <br>
