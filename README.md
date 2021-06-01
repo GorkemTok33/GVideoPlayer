@@ -16,7 +16,7 @@ Lisans Hakları: <b>Copyright 2021 Görkem Tok</b>
 3- Playlist oluşturabilme, oluşturulan playlistleri .gvp dosya uzantısı ile kaydedebilme, kaydedilen playlistler yükleyebilme. <br>
 4- Playlistleri kaydederken playlistlere başlık verebilme(detaylı bilgi için aşağıdaki playlist bölümüne bakınız. <br>
 5- Videonun kontrast, parlaklık, en-boy oranını değiştirebilme ve videoyu tam ekran yapabilme. <br>
-6- Video sesini susturma/açma, 0-99 aralığında ses artırabilme ve azaltabilme.
+6- Video sesini susturma/açma, 0-99 aralığında ses artırabilme ve azaltabilme. <br>
 7- Programın Şeffaflığını ayarlayabilme. <br>
 8- Playlistleri otomatik oynatabilme, rasgele ya da sırayla oynatabilme.
 <h3>Çalışması Devam Edilen Özellikler</h3>
@@ -45,6 +45,6 @@ GVideoPlayer videolarınızı tam ekran oynatma seçeneği sunar. Farenize çift
 <h3>Telif Hakları ve Lisans</h3>
 <img src = "https://user-images.githubusercontent.com/79594881/120124592-c26f8400-c1bd-11eb-96f0-631d2b7d0e30.png" width = "600px" height = "400px" align = "right"> </img>
 Bu program bilgisayar mühendisi adayı Görkem Tok tarafından hiçbir maddi kazanç ve kar amacı gütmeden c++ programlama dili ile programlanmış ve Qt Çapraz Platform yazılımı ile tasarımları yapılmıştır ve Qt cpp kütüphaneleri kullanılmıştır. 
-Kaynak kodlar Github platformunda paylaşılmıştır fakat kaynak kodlar, kaynak kod sahibinden(Görkem Tok) izin alınmadan hiçbir yerde paylaşılamaz,  kaynak kod sahibinden izin alınması durumunda bile kaynak kodlar değiştirilmemek şartıyla kaynak kod sahibine atıf yapılarak ticari amaç gütmeden kullanılabilir, yazılmış mevcut program(GvideoPlayer) adı, tasarımı ve program içi textleri değiştirilemez/kopyalanamaz ve program üzerinde değişiklik yapılamaz. İş bu maddelere ve Creative Commons lisans maddelerine uyulmaması durumunda hukuki süreç başlatılacaktır.
+Kaynak kodlar Github platformunda paylaşılmıştır fakat kaynak kodlar, kaynak kod sahibinden(Görkem Tok) izin alınmadan hiçbir yerde paylaşılamaz,  kaynak kod sahibinden izin alınması durumunda bile kaynak kodlar değiştirilmemek şartıyla kaynak kod sahibine atıf yapılarak ticari amaç gütmeden kullanılabilir, yazılmış mevcut program(GVideoPlayer) adı, tasarımı ve program içi textleri değiştirilemez/kopyalanamaz ve program üzerinde değişiklik yapılamaz. İş bu maddelere ve Creative Commons lisans maddelerine uyulmaması durumunda hukuki süreç başlatılacaktır.
 
 Lisans hakkında daha detaylı bilgiye ulaşmak için lütfen programın bulunduğu dosya dizininde ki ve/veya kaynak kodların bulunduğu dosya dizininde ki "Lisans.txt" dosyasını detaylıca okuyunuz.
