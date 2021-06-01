@@ -41,7 +41,7 @@ GVideoPlayer videolarınızı tam ekran oynatma seçeneği sunar. Farenize çift
 <br>
 <br>
 <h3>Minimum Sistem Gereksinimleri</h3>
-<img src = "https://user-images.githubusercontent.com/79594881/120302906-01452d00-c2d7-11eb-9dd1-bbb7cf9d5d66.png" width = "50px" height = "50px" align = "left"> </img>
+<img src = "https://user-images.githubusercontent.com/79594881/120302906-01452d00-c2d7-11eb-9dd1-bbb7cf9d5d66.png" width = "75px" height = "75px" align = "left"> </img>
 1-Minimum 720p Çözünürlüğe Sahip Monitör <br>
 2-Windows İşletim Sistemi Yüklü Bilgisayar <br>
 3-Codec Pack(Tercihen K-Lite Codec Pack 16.1.2) <br>
