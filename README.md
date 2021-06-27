@@ -6,7 +6,7 @@ Yazar: <b>Görkem Tok </b><br>
 Program Adı: <b>GVideoPlayer</b> <br>
 Programlama Dili: <b>c++</b> <br>
 Çapraz Platform Yazılımı: <b>Qt Creator</b> <br>
-Herkese Açık Yayımlanma Tarihi: <b>06.15.2021</b> <br>
+Herkese Açık Yayımlanma Tarihi: <b>06.27.2021</b> <br>
 Lisans: <b>Creative Commons</b> <br>
 Lisans Hakları: <b>Copyright 2021 Görkem Tok</b>
 
