@@ -34,6 +34,13 @@ GVideoPlayer videolarınızı belirli bir sırada oynatabilmeniz için playlist 
 <br>
 <br>
 <br>
+2-<b>Sürükle Bırak</b>
+<video controls width = "300" src= "https://user-images.githubusercontent.com/79594881/123530420-a00c5000-d702-11eb-80a1-23cb91509dd4.mp4"> </video>
+GVideoPlayer a desteklediği dosyaları(video dosyaları ve .gvp playlist dosyası) sürükleyip bırakarak açabilirsiniz. Ayrıca GVideoPlayera birden fazla video dosyasını sürükleyip bırakarak açabilirsiniz.
+<br>
+<br>
+<br>
+<br>
 2-<b>Tam Ekran</b>
 <img src = "https://user-images.githubusercontent.com/79594881/120301229-4ff1c780-c2d5-11eb-88d9-7002a6e15f89.png" width = "500px" height = "250px" align = "right"> </img>
 GVideoPlayer videolarınızı tam ekranda oynatma seçeneği sunar. Farenizin sol tuşuna çift tıklayarak tam ekran moduna geçebilir ve aynı tıklama ile tam ekran modundan çıkabilirsiniz. Tam ekrandayken videoyu kontrol edebilmek için video menüsüne sağ fare tuşuna tıklayarak erişebilirsiniz. Bu menü ile videoyu durdurabilir, oynatmaya devam edebilir, sonraki ve önceki videolar arası geçiş yapabilir, video en-boy oranını ayarlayabilirsiniz. Daha fazla detay için lütfen sunum videosunu izleyiniz.
