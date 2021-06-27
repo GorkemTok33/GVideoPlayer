@@ -8,8 +8,8 @@ Programlama Dili: <b>c++</b> <br>
 Çapraz Platform Yazılımı: <b>Qt Creator</b> <br>
 Herkese Açık Yayımlanma Tarihi: <b>06.27.2021</b> <br>
 Lisans: <b>Creative Commons</b> <br>
-Lisans Hakları: <b>Copyright 2021 Görkem Tok</b>
-Youtube Tanıtım Linki: https://www.youtube.com/watch?v=TQ1Pjpyol4M
+Lisans Hakları: <b>Copyright 2021 Görkem Tok</b> <br>
+Tanıtım Videosu: https://www.youtube.com/watch?v=TQ1Pjpyol4M
 
 <h3>GVideoPlayer ın Özellikleri</h3>
 1- Codec Packleri yüklü olan videoları oynatabilme <br>
